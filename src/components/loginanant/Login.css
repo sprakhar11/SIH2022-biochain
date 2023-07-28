@@ -1,0 +1,124 @@
+.login {
+    display: grid;
+    grid-template-columns: 70% 28%;
+    padding-top: 3rem;
+}
+
+.main {
+    background: url(../assets/gradient.png);
+}
+
+.login .left img {
+    width: 100%;
+    margin-top: -2.25rem;
+    height: 94%;
+}
+
+.left,
+.right {
+    padding: 1rem;
+}
+
+.right {
+    background: #FFFFFF;
+    opacity: 0.95;
+    backdrop-filter: blur(6px);
+    z-index: 5;
+    margin-left: -2.5rem;
+    ;
+}
+
+.head {
+    /* font-family: 'Gilroy'; */
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.subhead {
+    /* font-family: Gilroy; */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.mail,
+.password {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    line-height: 1.25cm;
+    margin-top: 1rem;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 600;
+    /* line-height: 24px; */
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.mail input,
+.password input {
+    height: 53px;
+    width: 262px;
+    /* left: 925px; */
+    top: 254px;
+    border-radius: 0px;
+    padding: 16px, 136px, 16px, 24px;
+}
+
+::placeholder {
+    padding: 25px;
+    background: #EDEFF3;
+    color: #BBBBBB;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.loginbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .75rem;
+    color: white;
+    background-color: #034BA9;
+    cursor: pointer;
+    margin-top: 2rem;
+    width: 170px;
+    text-align: center;
+}
+
+.end {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 5rem;
+}
+
+.logo {
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    padding-left: 1.8rem;
+}
+
+.logo .text {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: .5em;
+}

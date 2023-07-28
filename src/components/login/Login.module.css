@@ -1,0 +1,30 @@
+.loginContainer{
+    
+}
+.heading{
+    font-weight:var(--extra-bold);
+}
+.inputField{
+    width:100%;
+    border:none;
+    background:var(--bg-light);
+    border-radius:5px;
+}
+
+.lightText{
+    color:var(--text-light) !important;
+}
+.extraText{
+    width:30%;
+}
+@media (max-width:768px){
+    .inputFieldContainer,.formContainer{
+        width:100% !important;
+    }
+    .extraText{
+        width:100% !important;
+    }
+    .btnRegister{
+        width:100% !important;
+    }
+}

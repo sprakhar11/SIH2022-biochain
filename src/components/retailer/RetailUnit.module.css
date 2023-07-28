@@ -1,0 +1,7 @@
+.page{
+    background-color: var(--bg-color);
+}
+.dashboardRows{
+    background: var(--dashboard-light) !important;
+    /* background: red !important; */
+}

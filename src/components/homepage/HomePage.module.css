@@ -1,0 +1,29 @@
+.homeContainer{
+    background: var(--bg-color);
+}
+.heading{
+    font-weight:var(--extra-bold);
+    width:50%;  
+}
+.lightText{
+    color:var(--text-light) !important;
+}
+.extraText{
+    width:30%;
+}
+
+@media (max-width:768px){
+   .heading{
+       width:100%;
+   }
+    .extraText{
+        width:100% !important;
+    }
+    .btnContainer{
+        width:100% !important;
+    }
+    .btnRegister{
+        width:100% !important;
+    }
+    
+}
